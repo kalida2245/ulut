@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Улуттук дем — дүйнөлүк бийиктик</title>
+<meta name="description" content="Кыргыз руху жана математика: билим аркылуу дүйнөлүк бийиктикке.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Unbounded:wght@500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a class="logo" href="#top" aria-label="Башкы бет"><svg viewBox="-20 -20 40 40" width="28" height="28"><circle r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M-18 0H18M0-18V18M-12.7-12.7L12.7 12.7M12.7-12.7L-12.7 12.7" stroke="currentColor" stroke-width="1.2"/></svg>Дем</a>
+  <button class="burger" id="burger" aria-label="Менюну ачуу" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#spirit">Рух</a><a href="#geometry">Геометрия</a><a href="#calc">Эсептегич</a><a href="#peaks">Тоолор</a><a href="#path">Жол</a><a href="#quiz">Тест</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="symbols" id="symbols" aria-hidden="true"></div>
+  <svg class="sun" viewBox="-100 -100 200 200" aria-hidden="true"><circle r="34" fill="none" stroke="#F2B705" stroke-width="2"/><circle r="22" fill="none" stroke="#F2B705" stroke-width="1" opacity=".6"/><g id="rays" stroke="#F2B705" stroke-width="1.2"></g></svg>
+  <div class="hero-text">
+    <h1>Улуттук дем —<br>дүйнөлүк бийиктик</h1>
+    <p class="lead">Математика — ой жүгүртүүнүн күчү. Билим — келечекке жол.</p>
+    <p class="sub">Улуттук баалуулуктарыбызды сактап, заманбап илим жана математика аркылуу дүйнөлүк бийиктиктерди багынтабыз.</p>
+    <div class="cta"><a class="btn primary" href="#calc">Математиканы баштоо</a><a class="btn ghost" href="#spirit">Биз жөнүндө</a></div>
+  </div>
+  <svg class="mtn" viewBox="0 0 1200 300" preserveAspectRatio="none" aria-hidden="true">
+    <path class="m1" d="M0 300V190L120 120 220 190 380 40 520 170 640 90 780 200 940 60 1080 160 1200 110V300Z"/>
+    <path class="m2" d="M0 300V230L160 170 300 240 460 130 620 240 800 150 980 250 1100 190 1200 230V300Z"/>
+    <path class="m3" d="M0 300V265L200 225 380 270 600 215 820 275 1000 235 1200 270V300Z"/>
+  </svg>
+</section>
+
+<section id="spirit" class="sec light">
+  <h2 class="reveal">Математика жана улуттук рух</h2>
+  <div class="grid4">
+    <article class="card reveal"><h3>Тактык</h3><p>Математика адамды тактыкка жана жоопкерчиликке үйрөтөт.</p></article>
+    <article class="card reveal"><h3>Логика</h3><p>Логикалык ой жүгүртүү — келечектеги ийгиликтин негизи.</p></article>
+    <article class="card reveal"><h3>Билим</h3><p>Билим — улуттук өнүгүүнүн эң күчтүү куралы.</p></article>
+    <article class="card reveal"><h3>Бийиктик</h3><p>Ар бир чечилген маселе — жаңы бийиктикке жасалган кадам.</p></article>
+  </div>
+</section>
+
+<section id="geometry" class="sec dark">
+  <h2 class="reveal">Улуттук оюм жана геометрия</h2>
+  <p class="intro reveal">Оюм-чийимдин ичиндеги түзүлүштү көр. Фигураны басып же үстүнө курсорду алып барыңыз.</p>
+  <div class="geo">
+    <svg viewBox="0 0 600 400" class="geo-svg" role="group" aria-label="Геометриялык фигуралар">
+      <g class="shape" tabindex="0" data-t="Айлана" data-d="Борбордон бирдей алыстыктагы чекиттер жыйындысы. Түндүктүн (боз үйдүн чокусу) формасы — айлана. Узундугу C = 2πr."><circle cx="100" cy="100" r="60"/><circle cx="100" cy="100" r="28"/></g>
+      <g class="shape" tabindex="0" data-t="Үч бурчтук" data-d="Эң туруктуу фигура: ички бурчтарынын суммасы 180°. Тоо чокусунун символу. Аянты S = ½·a·h."><path d="M300 40L370 160H230Z"/></g>
+      <g class="shape" tabindex="0" data-t="Төрт бурчтук" data-d="Төрт тең жагы бар ромб: диагоналдары перпендикуляр жана тең экиге бөлүнөт. Аянты S = ½·d₁·d₂."><path d="M500 40L560 100 500 160 440 100Z"/></g>
+      <g class="shape" tabindex="0" data-t="Симметрия" data-d="Огу боюнча күзгүлүү кайталануу. Оюмдардын көбү күзгүлүү симметрияга курулган: сол жагы оң жагынын чагылуусу."><path d="M100 230Q60 270 100 310Q140 270 100 230ZM100 310Q60 350 100 390Q140 350 100 310Z"/><path d="M100 220V395" class="axis"/></g>
+      <g class="shape" tabindex="0" data-t="Фракталдык түзүлүш" data-d="Бөлүгү бүтүнгө окшош түзүлүш. Серпинский үч бурчтугу: ар кадамда борбору алынып, 3 кичине үч бурчтук калат."><g id="fractal"></g></g>
+      <g class="shape" tabindex="0" data-t="Пропорция" data-d="Алтын кесим φ ≈ 1.618: чоң бөлүктүн кичүүгө катышы бүтүндүн чоң бөлүккө катышына барабар."><rect x="440" y="230" width="130" height="80"/><rect x="440" y="230" width="80" height="80"/><rect x="440" y="230" width="80" height="49"/></g>
+    </svg>
+    <div class="info" id="geoInfo" aria-live="polite"><h3>Фигураны танда</h3><p>Бул жерде фигуранын математикалык түшүндүрмөсү чыгат.</p></div>
+  </div>
+</section>
+
+<section id="calc" class="sec light">
+  <h2 class="reveal">Бийиктикти эсепте</h2>
+  <div class="calc reveal">
+    <p class="formula">h = d × tan(θ)</p>
+    <div class="fields">
+      <label>Аралык d (метр)<input id="dist" type="number" min="1" step="any" value="2000" inputmode="decimal"></label>
+      <label>Бурч θ (градус)<input id="angle" type="number" min="1" max="89" step="any" value="31" inputmode="decimal"></label>
+    </div>
+    <button class="btn primary" id="calcBtn">Эсептөө</button>
+    <p class="err" id="calcErr" role="alert"></p>
+    <p class="result" id="result" aria-live="polite">Сен эсептеген бийиктик: <strong id="resNum">—</strong></p>
+  </div>
+</section>
+
+<section class="sec dark stats">
+  <h2 class="reveal">Математикалык бийиктиктер</h2>
+  <div class="grid4">
+    <div class="stat reveal"><b data-count="3.14159" data-dec="5">0</b><span>π</span></div>
+    <div class="stat reveal"><b>∞</b><span>Чексиз мүмкүнчүлүк</span></div>
+    <div class="stat reveal"><b data-count="100" data-suf="%">0</b><span>Ийгиликке аракет</span></div>
+    <div class="stat reveal"><b>1 + 1</b><span>Билим + Эмгек</span></div>
+  </div>
+</section>
+
+<section id="peaks" class="sec light">
+  <h2 class="reveal">Кыргызстан — бийиктиктер өлкөсү</h2>
+  <p class="intro reveal">Тоону танда. Маалыматтар демонстрациялык жана болжолдуу.</p>
+  <div class="peaks">
+    <button class="peak" data-k="ala"><svg viewBox="0 0 200 100"><path d="M0 100L40 50 70 70 110 30 150 65 200 40V100Z"/></svg>Ала-Тоо</button>
+    <button class="peak" data-k="teng"><svg viewBox="0 0 200 100"><path d="M0 100L30 60 60 80 100 20 140 75 170 50 200 85V100Z"/></svg>Теңир-Тоо</button>
+    <button class="peak" data-k="khan"><svg viewBox="0 0 200 100"><path d="M0 100L70 70 100 5 130 70 200 100Z"/></svg>Хан-Теңири</button>
+  </div>
+  <div class="info peak-info" id="peakInfo" aria-live="polite"><h3>Тоону танда</h3><p>Карточка бул жерде ачылат.</p></div>
+</section>
+
+<section id="path" class="sec dark">
+  <h2 class="reveal">Билимден — дүйнөлүк бийиктикке</h2>
+  <ol class="timeline" id="timeline"></ol>
+</section>
+
+<section id="quiz" class="sec light">
+  <h2 class="reveal">Математикалык тест</h2>
+  <div class="quiz reveal" id="quizBox"></div>
+</section>
+
+<section class="motive">
+  <h2 class="reveal">Бийиктикке чыгуу үчүн алгачкы кадам — билим.</h2>
+  <p class="reveal">Тоонун чокусу бир кадамдан башталат.<br>Илимдин чокусу бир суроодон башталат.<br>Математиканын күчү — туура ой жүгүртүүдө.</p>
+</section>
+</main>
+
+<footer>
+  <p class="f1">Улуттук дем — дүйнөлүк бийиктик</p>
+  <p>Билим. Илим. Математика. Келечек.</p>
+  <div class="social"><button aria-label="Facebook">f</button><button aria-label="Instagram">in</button><button aria-label="YouTube">▶</button><button aria-label="Telegram">✈</button></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
